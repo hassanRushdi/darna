@@ -1,0 +1,63 @@
+@import '../../style/varibale';
+
+.p-buttonset {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece9e9;
+    border-radius: 50px !important;
+    transition: all 0.5s;
+
+    @media screen and (width < 1028px) {
+        width: 80%;
+    }
+
+    .p-button {
+        border-radius: 50px !important;
+        width: 100% !important;
+        background-color: #ece9e9;
+        border: 1px solid #ece9e9 !important;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        @media screen and (width < 767px) {
+            padding-top: 2px !important;
+            padding-bottom: 2px !important;
+        }
+
+        span {
+            color: var(--grey, #929292);
+            text-align: center;
+            font-family: Cairo;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        &:hover {
+            background-color: #ece9e9 !important;
+        }
+    }
+
+    .active-button {
+        background-color: $mainColor ;
+        border-radius: 50px !important;
+
+        span {
+            color: var(--white, #FFF);
+            text-align: center;
+            font-family: Cairo;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        &:hover {
+            background-color: $mainColor !important;
+
+        }
+    }
+}

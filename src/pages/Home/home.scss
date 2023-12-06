@@ -1,0 +1,326 @@
+@import '../../style/varibale';
+
+.main_page {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  @media screen and (width <1025px) {
+    height: fit-content;
+    margin-top: calc(93px + 64px) !important;
+  }
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+
+    @media screen and (width < 1025px) {
+      object-fit: contain;
+    }
+  }
+
+  /* .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    @media screen and (width <767px) {
+      margin-top: calc(93px + 64px) !important;
+    }
+  } */
+
+  .overlay {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    top: 0;
+
+    bottom: 0;
+
+    @media screen and (width < 1025px) {
+      bottom: 5px !important;
+    }
+
+    background: linear-gradient(180deg, rgba(44, 46, 53, 0.40) 0%, rgba(44, 46, 53, 0.00) 100%),rgba(17, 33, 66, 0.30);
+
+  }
+}
+
+.summary {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+
+  @media screen and (width <767px) {
+    margin-bottom: 50px;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 111.307px;
+    padding: 15px 100px;
+    width: 50%;
+    margin-top: - calc(111px / 2);
+    border-radius: 82px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 4px 20px 0px rgba(214, 196, 134, 0.70);
+
+
+
+    @media screen and (width <1181px) {
+      width: 70%;
+      margin-top: -50px !important;
+    }
+
+    @media screen and (width < 1290px) {
+      margin-top: auto;
+    }
+
+    @media screen and (width <878px) {
+      width: 90%;
+    }
+
+    @media screen and (width <650px) {
+      width: 98%;
+      height: fit-content;
+      padding: 15px 15px;
+
+    }
+
+    @media screen and (width <767px) {
+      margin-top: 25px !important;
+    }
+
+    .projects {
+      .num {
+        color: var(--dark-mint-green, #d6c485);
+        font-family: Cairo;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+
+        /* 48.128px */
+        @media screen and (width <767px) {
+          font-size: 20px;
+        }
+      }
+
+      .text {
+
+        color: var(--main-blue, #0F1E43);
+
+        /* Body 2 */
+        font-family: Cairo;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+
+        @media screen and (width <767px) {
+          font-size: 16px;
+        }
+
+        @media screen and (width <650px) {
+          font-size: 12px;
+
+        }
+      }
+    }
+  }
+}
+
+.app_offers {
+  margin-bottom: 150px;
+
+  @media screen and (width <767px) {
+    margin-bottom: 50px;
+  }
+
+  .img_overlay {
+    position: relative;
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, rgba(44, 46, 53, 0.50) 0%, rgba(44, 46, 53, 0.00) 100%), rgba(17, 33, 66, 0.50);
+      opacity: 1;
+      transition: opacity 0.5s;
+      display: flex;
+      align-items: end;
+
+      img {
+        height: 70%;
+      }
+    }
+
+    &:hover .overlay {
+      opacity: 0;
+      /* Show the overlay on hover */
+    }
+  }
+
+  .offer_content {
+    h1 {
+      color: #0F1E43;
+      font-family: Cairo;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%;
+
+      @media screen and (width <767px) {
+        font-size: 22px;
+      }
+
+      @media screen and (width < 600px) {
+        font-size: 20px;
+      }
+    }
+
+    p {
+      color: var(--dark-blue, #2C2E35);
+
+      /* Comment */
+      font-family: Cairo;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+      @media screen and (width <767px) {
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+[dir="rtl"] .app_offers .img_overlay .overlay img {
+  transform: rotateY(180deg);
+}
+
+// ==============================================================================
+.app__about {
+  h1 {
+    color: $mainColor;
+    /* Heading 3 */
+    font-family: Cairo;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+
+
+
+    @media screen and (width <1181px) {
+      font-size: 35px;
+    }
+  }
+
+  p {
+    color: $dark;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    @media screen and (width <1181px) {
+      font-size: 16px;
+    }
+  }
+}
+
+
+
+// ******************************************************************************************************************
+.app__content_home {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  opacity: 0.8;
+  background: linear-gradient(90deg, #d6c485 0%, #112142 100%);
+
+  h3 {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Cairo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.4%;
+    font-weight: bold;
+
+    @media screen and (width < 767px) {
+      font-size: 27px;
+    }
+  }
+
+  p {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  button {
+    border-radius: 27.443px;
+    border: 1.098px solid var(--main-mint-green, #D6C486);
+    box-shadow: 0px 2.1954px 4.3908px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    padding: 11px 36px;
+    color: $secondColor;
+  }
+
+}
+
+.loading {
+  position: relative !important;
+  height: 100vh !important;
+}
+
+// ******************************************************************************************************************
+.app__loading {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  height: 100vh !important;
+  z-index: 999999999999999 !important;
+  animation: wipe-out-up 2s ease-in-out forwards;
+  transition: all 5s;
+
+  @keyframes wipe-out-up {
+    from {
+      clip-path: inset(0 0 0 0);
+    }
+
+    to {
+      clip-path: inset(0 0 100% 0);
+    }
+  }
+
+  [transition-style="out:wipe:up"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-out-up both;
+  }
+}

@@ -1,0 +1,613 @@
+@import '../../style/varibale';
+
+.fixed-top {
+    top: 64px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: rgba(15, 30, 67, 0.70) !important;
+    height: 93px;
+    display: flex !important;
+    justify-content: center !important;
+
+    @media screen and (width <1025px) {
+        background-color: $mainColor !important;
+    }
+}
+
+.main-nav {
+
+    nav {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+.navbar__social {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 88888;
+    background-color: $mainColor !important;
+    height: 64px !important;
+
+    &.hide {
+        display: none;
+    }
+
+    .navbar__social-Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: $mainColor !important;
+        margin: auto;
+
+        @media screen and (width <1025px) {
+            background-color: $secondColor !important;
+        }
+
+        .calling {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                display: block;
+                width: 1px;
+                height: 70%;
+                background-color: $light;
+
+                /* Adjust the position based on your design */
+                border-radius: 5px;
+
+                @media screen and (width < 993px) {
+                    display: none !important;
+                }
+
+                @media screen and (width < 1200px) {
+                    left: calc(20% - -20.75px);
+                }
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                display: block;
+                width: 1px;
+                height: 70%;
+                background-color: $light;
+
+
+                @media screen and (width < 993px) {
+                    display: none !important;
+                }
+
+                border-radius: 5px;
+            }
+
+            // .line3 {
+
+            //     &::before {
+            //         content: '';
+            //         position: absolute;
+            //         display: block;
+            //         width: 1px;
+            //         height: 70%;
+            //         background-color: $light;
+            //         border-radius: 5px;
+
+            //         @media screen and (width < 993px) {
+            //             display: none !important;
+            //         }
+
+
+            //     }
+            // }
+
+            svg {
+                width: 15px !important;
+                height: 15px !important;
+            }
+
+            .hotline {
+                background-color: $secondColor;
+                border-radius: 30px;
+                box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.15) !important;
+                gap: 10px;
+                padding: 10px 18px;
+
+                @media screen and (width <1028px) {
+                    background-color: $secondColorDark !important;
+                }
+            }
+
+        }
+
+        .center {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            position: relative;
+
+
+
+            svg {
+                width: 15px !important;
+
+            }
+
+            .nav1__home_svg {
+                svg {
+                    width: 15px !important;
+                }
+            }
+
+            .change-lang {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+                user-select: none;
+
+                .text {
+                    color: $light;
+                }
+
+                .lang {
+                    path {
+                        fill: #fff !important;
+                    }
+                }
+            }
+        }
+
+        .social {
+            display: flex;
+            gap: 25px;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+
+            .social_media {
+                display: flex;
+                gap: 10px;
+                width: 157px; 
+                justify-content: end;
+            }
+
+            position: relative;
+
+            svg,
+            .facebook {
+                width: 20px !important;
+                height: 20px !important;
+            }
+
+
+        }
+    }
+
+}
+
+.navbar__social {
+    /* Existing styles */
+    transition: all 0.5s;
+
+    &.hidden {
+        display: none;
+    }
+}
+
+.fixed-top {
+    /* Existing styles */
+    transition: all 0.5s;
+
+    &.scroll {
+        background: $mainColor !important;
+        top: 0px !important;
+
+        .Logo__RightClick {
+            color: $mainColor !important;
+        }
+
+        .icons__menu {
+            line {
+                stroke: $mainColor;
+            }
+        }
+
+        .app__menu-talk {
+            background-color: $mainColor;
+            color: $light;
+
+            &:hover {
+                background-color: $dark;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.main-nav {
+    nav {
+        height: 67px !important;
+    }
+}
+
+.navbar-sm-icons-phone {
+    path {
+        fill: $light;
+    }
+}
+
+.app__navbar {
+    background-color: #F7FCFF !important;
+
+    .p-menuitem-text {
+        a {
+            color: $dark !important;
+        }
+    }
+
+    .p-menubar {
+        width: calc(100% - 100px) !important;
+        margin: auto !important;
+        padding: 0.5rem;
+        background: transparent !important;
+        color: #495057 !important;
+        border: 1px solid transparent !important;
+        border-radius: 0 !important;
+        display: flex !important;
+
+        @media screen and (width <=767px) {
+            width: 100% !important;
+        }
+    }
+
+}
+
+[dir="ltr"] .p-menubar-root-list {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .app__navbar .p-menubar {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+[dir="ltr"] .p-menubar .p-menubar-custom {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+[dir="ltr"] .p-menubar .p-menubar-end {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+
+[dir="rtl"] .p-menubar .p-menubar-custom {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+[dir="rtl"] .p-menubar .p-menubar-end {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+[dir="rtl"] .change-lang {
+    margin-bottom: 0px;
+}
+
+[dir="ltr"] .change-lang {
+    margin-top: 0px;
+}
+
+.navbar_icons_sm {
+    @media screen and (width < 767px) {
+        display: none;
+    }
+}
+
+.nav_links {
+    width: 80%;
+
+    @media screen and (width <767px) {
+        width: fit-content;
+
+    }
+
+    .navbar-nav {
+        display: flex;
+        gap: 30px;
+    }
+
+    .nav-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+    }
+}
+
+.sidebar_sm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+
+    @media screen and (width < 1200px) {
+        display: none;
+    }
+}
+
+.sidebar_lg {
+    display: none;
+
+    .p-button {
+        padding: 20px !important;
+    }
+
+    .p-button.p-button-icon-only.p-button-rounded {
+        height: 62px;
+    }
+
+    @media screen and (width < 1200px) {
+        display: block;
+    }
+}
+
+.bg_sidebar {
+    background-color: $mainColor !important;
+    // padding: 0px !important;
+}
+
+.routes {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px !important;
+    padding: 5px 15px;
+    // background-color: black;
+
+    .link {
+        // background-color: #090f18;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        // margin: 10px 0;
+        border-radius: 8px !important;
+        align-items: center;
+        gap: 20px;
+        color: #FFFFFF;
+        transition: all 0.1s;
+        height: 70px;
+        width: 100% !important;
+
+        .icon {
+
+            path {
+                transition: all 0.6s;
+            }
+
+
+        }
+
+        .line {
+
+            path {
+                transition: all 0.6s;
+                stroke: #0E0E0E
+            }
+
+        }
+
+        .link_text {
+
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px;
+            text-transform: uppercase;
+        }
+
+        &:hover {
+            color: $secondColor !important;
+
+            .icon {
+                path {
+                    transition: all 0.6s;
+                    // fill: $secondColor;
+                    stroke: $secondColor
+                }
+
+            }
+
+            .line {
+                z-index: 99999999;
+
+                path {
+                    stroke: $light !important
+                }
+
+            }
+
+            .link_text {
+                transition: all 0.5s;
+            }
+
+
+
+            &::before {
+                transition: all 0.6s;
+                width: 100%;
+            }
+        }
+
+    }
+
+
+
+}
+
+.change-lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+
+    .text {
+        color: $light;
+    }
+
+    .lang {
+        path {
+            fill: #fff !important;
+        }
+    }
+}
+
+[dir="rtl"] .change-lang {
+    margin-bottom: 0px;
+}
+
+[dir="ltr"] .change-lang {
+    margin-top: 0px;
+}
+
+
+[dir="ltr"] .calling::before {
+    left: 25%; 
+}
+ 
+[dir="ltr"] .calling::after {
+    right: 25%; 
+}
+
+[dir="rtl"] .calling::before {
+    left: 25%; 
+} 
+
+[dir="rtl"] .calling::after {
+    right: 25%; 
+}
+// فيلا رقم 489 - شارع الشويفات - القاهرة الجديدة
+// villa no 489 - shoifat street,new cairo
+
+
+
+
+// [dir="ltr"] .navbar__social .navbar__social-Container .calling .line3::before {
+//     right: 45% !important;
+//     @media screen and (width < 1195px) {
+//         right: 42% !important;
+//     }
+
+// }
+
+// [dir="rtl"] .navbar__social .navbar__social-Container .calling .line3::before {
+//     right: 55% !important;
+//     @media screen and (width < 1200px) {
+//         right: 56% !important;
+//     }
+
+// }
+
+.sm_navbar {
+
+    @media screen and (width < 993px) {
+        display: none !important;
+    }
+}
+
+.p-sidebar-mask {
+    z-index: 89999999999 !important;
+}
+
+.dropdown-toggle {
+    background-color: transparent !important;
+    border: 0 !important;
+
+}
+
+.dropdown-item {
+    padding: 10px !important;
+    transition: all 0.5s;
+
+    &:hover {
+        background-color: $secondColorDark !important;
+    }
+}
+
+.dropdown-menu {
+    padding: 0 !important;
+}
+
+.dropdown_en .dropdown-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropdown_ar .dropdown-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropdown_en .dropdown-toggle::after {
+    position: absolute;
+    right: -8px;
+    top: 40%;
+    transform: translate(-40%);
+}
+
+.dropdown_ar .dropdown-toggle::after {
+    position: absolute;
+    left: -8px;
+    top: 40%;
+    transform: translate(-40%);
+}
+
+.change_lang-sidebar {
+    padding: 0 10px;
+
+    .header {
+        h3 {
+            color: $mainColor !important;
+            font-family: cairo;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+    }
+
+    .app__menu-talk {
+        margin-top: 20px;
+
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        gap: 15px;
+        align-items: center;
+        color: #fff;
+
+
+    }
+}

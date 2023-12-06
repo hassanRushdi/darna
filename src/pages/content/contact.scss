@@ -1,0 +1,291 @@
+@import '../../style/varibale';
+
+.app__contact_us {
+
+    .app__service-home {
+        .content {
+            h1 {
+                color: var(--main-blue, #0F1E43);
+                font-family: Cairo;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-align: center;
+                margin-top: 10px;
+
+         
+            }
+
+            p {
+                color: var(--dark, #162A2B);
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 197.4%;
+                letter-spacing: 0.63px;
+                width: 55%;
+                margin: auto;
+                margin-top: 15px;
+            }
+
+            transition: all 0.5s;
+
+            .p-button {
+                width: 262px;
+                margin: auto;
+                margin-top: 20px;
+                border-radius: 25px;
+                background-color: $mainColor;
+                border: $mainColor;
+                transition: all 0.5s;
+
+                span {
+                    color: var(--white, #FFF);
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                &:hover {
+                    transition: all 0.5s;
+
+                    background: linear-gradient(270deg, #d6c485 0%, #0F1E43 106.49%);
+                }
+            }
+        }
+    }
+
+    .app__form_contact {
+        opacity: 0.85;
+        background: var(--main-mint-green, #D6C486);
+        padding: 30px;
+
+        h3 {
+            color: $mainColor;
+            font-family: Cairo;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 140%;
+ 
+            @media screen and (width < 767px) {
+                font-size: 25px;
+            }
+            @media screen and (width < 1028px) {
+                font-size: 30px;
+            }
+        }
+
+        p {
+            color: $mainColor;
+            font-family: Cairo;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            @media screen and (width < 820px) {
+                font-size: 14px;
+            }
+        }
+
+        .form {
+            input {
+                background-color: transparent;
+                border: 1px solid $mainColor;
+            }
+
+            .p-button {
+                border-radius: 25px;
+                background-color: $mainColor;
+                border: $mainColor;
+                transition: all 0.5s;
+
+                span {
+                    color: var(--white, #FFF);
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                &:hover {
+                    transition: all 0.5s;
+
+                    background: linear-gradient(270deg, #d6c485 0%, #0F1E43 106.49%);
+                }
+            }
+        }
+    }
+}
+
+.app__contect_contect {
+    opacity: 0.85;
+    border: 1px solid $secondColor;
+    padding: 30px;
+
+    .logo {
+        margin: auto;
+        width: 100%;
+    }
+
+    .call {
+        display: flex;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+
+        gap: 24px;
+
+        svg {
+            path {
+
+                fill: #d6c485 !important;
+            }
+        }
+
+        h3 {
+            color: var(--dark-mint-green, #d6c485);
+            font-family: Cairo;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    h3 {
+        color: var(--dark-mint-green, #d6c485);
+        font-family: Cairo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .data {
+        a {
+
+            color: $mainColor !important;
+        }
+    }
+}
+
+[dir="rtl"] .btn_mt-3 {
+    margin-top: 27px;
+}
+
+.call_sm {
+    a {
+
+        @media screen and (width<767px) {
+            font-size: 14px;
+        }
+    }
+
+    p {
+
+        @media screen and (width<767px) {
+            font-size: 14px;
+        }
+    }
+}
+
+
+.content_line {
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 40%;
+        width: 1px;
+        background: $colorGrey-0;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 40%;
+        width: 1px;
+        background: $colorGrey-0;
+    }
+}
+
+.modal-footer,
+.modal-header {
+    background-color: #0F1E43 !important;
+}
+
+.modal-header {
+    border-bottom: 5px solid $secondColor !important
+}
+
+.modal-footer {
+    border-top: 5px solid $secondColor !important
+}
+
+.title_header {
+    color: var(--dark-mint-green, #d6c485);
+    font-family: Cairo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.14px;
+}
+
+.grop_form {
+    label {
+        color: var(--main-blue, #0F1E43);
+        font-family: Cairo;
+        font-size: 14.81px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25.389px;
+        /* 171.429% */
+        letter-spacing: 0.148px;
+    }
+}
+
+.app__form_contact2 {
+    input {
+        background-color: transparent;
+        border: 1px solid $mainColor;
+    }
+
+    .p-button {
+        border-radius: 25px;
+        background-color: $mainColor;
+        border: $mainColor;
+        transition: all 0.5s;
+        width: 70%;
+        margin: auto;
+        span {
+            color: var(--white, #FFF);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        &:hover {
+            transition: all 0.5s;
+
+            background: linear-gradient(270deg, #d6c485 0%, #0F1E43 106.49%) !important;
+        }
+    }
+}

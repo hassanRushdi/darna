@@ -1,0 +1,124 @@
+@import '../../style/varibale';
+
+.app__project_site_about_page {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    h1 {
+        color: var(--main-blue, #0F1E43);
+
+        /* Heading 3 */
+        font-family: Cairo;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+
+        /* 63px */
+        @media screen and (width < 820px) {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    .overlay_about_home1 {
+        position: relative;
+
+        .overlay {
+            position: absolute;
+            inset: 0;
+            background-color: rgba($color: #000000, $alpha: 60%);
+            transition: opacity 0.5s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h1 {
+                color: #FFF;
+                text-align: center;
+                font-family: Cairo;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150.4%;
+
+                @media screen and (width < 820px) {
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+
+            p {
+                color: #FFF;
+                text-align: center;
+                font-family: Cairo;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150.4%;
+
+                @media screen and (width < 820px) {
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+
+        }
+
+        &:hover .overlay {
+            opacity: 0;
+            /* Show the overlay on hover */
+        }
+    }
+
+    .overlay_about_home2 {
+        position: relative;
+
+        .overlay {
+            position: absolute;
+            inset: 0;
+            background-color: rgba($color: #000000, $alpha: 60%);
+            transition: opacity 0.5s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h1 {
+                color: #FFF;
+                text-align: center;
+                font-family: Cairo;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150.4%;
+                @media screen and (width < 820px) {
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+
+            p {
+                color: #FFF;
+                text-align: center;
+                font-family: Cairo;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150.4%;
+
+                @media screen and (width < 820px) {
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+
+        }
+
+        &:hover .overlay {
+            opacity: 0;
+            /* Show the overlay on hover */
+        }
+    }
+}

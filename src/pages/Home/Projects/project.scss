@@ -1,0 +1,339 @@
+@import '../../../style/varibale';
+
+.app_projects {
+    padding: 100px 0;
+    margin: auto;
+
+    h2 {
+        color: $mainColor;
+        font-family: Cairo;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+
+        @media screen and (width < 767px) {
+            font-size: 30px;
+
+        }
+    }
+
+    .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+        transition: all 0.5s;
+        background-color: $secondColorDark;
+        width: 2rem;
+    }
+
+    .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+        height: 5px;
+        width: 1rem;
+        border-radius: 5px;
+    }
+
+    .p-carousel-next,
+    .p-carousel-prev {
+        display: none;
+    }
+
+}
+
+.app__see_more {
+
+    .left {
+        transform: rotate(180deg);
+    }
+
+    .text {
+        color: $dark !important;
+        font-family: Cairo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.app__project_site {
+    background-color: #FFF5D3;
+    transition: all 5s !important;
+    margin-bottom: 200px !important;
+    margin-top: 150px !important;
+
+    @media screen and (width<1876) {
+        margin-bottom: 300px !important;
+        margin-top: 180px !important;
+    }
+
+    @media screen and (width<1500px) {
+        margin-bottom: 150px !important;
+        margin-top: 50px !important;
+    }
+
+    .app__project_site_images {
+        padding: 150px 0;
+
+        @media screen and (width< 913px) {
+            padding: 30px 0;
+        }
+
+        @media screen and (width<1400px) {
+            padding: 100px 0;
+        }
+
+        @media screen and (width<992px) {
+            padding: 25px 0;
+
+        }
+    }
+
+    .map_image {
+        position: absolute;
+        top: -172%;
+        margin-left: 150px;
+
+        img {
+            width: 100% !important;
+            z-index: 999999 !important;
+
+            @media screen and (width<1280px) {
+                width: 105% !important;
+            }
+
+            @media screen and (width<1205px) {
+                width: 115% !important;
+            }
+
+            @media screen and (width<1105px) {
+                width: 125% !important;
+                margin-left: -60px;
+            }
+
+
+            @media screen and (width<1061px) {
+                width: 130% !important;
+                margin-left: -60px;
+            }
+
+            @media screen and (width<993px) {
+                width: 140% !important;
+                margin-left: -100px;
+            }
+
+            @media screen and (width<992px) {
+                width: 170% !important;
+                margin-left: -100px;
+            }
+
+            @media screen and (width< 768px) {
+                width: 100% !important;
+
+            }
+
+            // @media screen and (width<1215px) {
+            //     width: 95% !important;
+            // }
+
+            // @media screen and (width<1070px) {
+            //     width: 100% !important;
+            // }
+        }
+
+        @media screen and (width<1876) {
+            top: -180%;
+        }
+
+        @media screen and (width<1493px) {
+            top: -140%;
+        }
+
+
+        @media screen and (width<1400px) {
+            top: -100%;
+        }
+
+        @media screen and (width<992px) {
+            top: -80%;
+        }
+
+        @media screen and (width<916px) {
+            top: -65%;
+        }
+
+
+        @media screen and (width< 869px) {
+            top: -55%;
+        }
+
+        @media screen and (width< 768px) {
+            position: static;
+            height: 100% !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        // @media screen and (width<1365px) {
+        //     top: -70%;
+        //     left: 100px;
+        //     right:  100px;
+
+        // }
+
+        // @media screen and (width<1300px) {
+        //     top: -90%;
+        //     left: 100px;
+        //     right:  100px;
+
+        // }
+
+        // @media screen and (width<1215px) {
+        //     top: -80%;
+        //     left: 100px;
+        //     right:  100px;
+
+        // }
+
+        // @media screen and (width<1070px) {
+        //     top: -70%;
+        //     left: 100px;
+        //     right:  100px;
+
+        // }
+
+        // @media screen and (width< 913px) {
+        //     top: -80px;
+        // }
+
+
+
+
+
+    }
+
+    h1 {
+        color: $mainColor;
+        font-family: Cairo;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+
+        @media screen and (width < 821px) {
+            font-size: 30px;
+        }
+    }
+
+    p {
+        color: $mainColor;
+        font-family: Cairo;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+
+        @media screen and (width < 821px) {
+            font-size: 20px;
+        }
+
+        span {
+            color: $secondColorDark;
+            font-family: Cairo;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+
+            @media screen and (width < 821px) {
+                font-size: 20px;
+            }
+        }
+
+    }
+
+    .p-button {
+        gap: 10px;
+        display: flex;
+        border-radius: 25px;
+        background: $secondColorDark !important;
+        border: $secondColorDark !important;
+        padding: 11px 20px;
+
+        @media screen and (width < 821px) {
+            padding: 10px 20px !important;
+        }
+
+        .p-button-label {
+            color: $light;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            @media screen and (width < 821px) {
+                font-size: 14px;
+
+            }
+        }
+
+    }
+
+    .p-button:enabled:hover,
+    .p-button:not(button):not(a):not(.p-disabled):hover {
+        background: linear-gradient(270deg, #d6c485 0%, #0F1E43 106.49%) !important;
+
+    }
+}
+
+
+
+
+
+.app_projects .name_place2 {
+    position: relative;
+
+    span {
+        position: absolute;
+        border-radius: 30px;
+        background: $secondColorDark;
+        top: 15px;
+        color: $light;
+        text-align: center;
+        padding: 5px 10px;
+        font-family: Cairo;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.14px;
+    }
+}
+
+[dir="ltr"] .app_projects .name_place2 {
+    span {
+        right: 15px;
+    }
+}
+
+[dir="rtl"] .app_projects .name_place2 {
+    span {
+        right: 15px;
+    }
+}
+
+.p-image-mask {
+    background-color: rgba($color: #fff, $alpha: 0.8) !important;
+}
+
+ 
+ .p-image-action{
+    background-color: $mainColor !important;
+ }
+ .p-image-toolbar{
+    direction: ltr !important;
+ }
+
+ .p-image-preview-container:hover > .p-image-preview-indicator {
+     background-color: transparent !important;   
+}

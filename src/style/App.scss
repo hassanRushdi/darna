@@ -1,0 +1,174 @@
+@import './varibale';
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
+
+.m_navbar_body {
+    margin-top: calc(88px + 50px);
+}
+
+[dir="rtl"] * {
+    font-family: $fontBase !important;
+}
+
+.loading__page {
+    .loading_content {
+        height: 100vh;
+        background-color: rgba($color: #fff, $alpha: 0.8) !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.seconed_color {
+    color: $secondColorDark;
+}
+
+[dir="ltr"] .p-button {
+    flex-direction: row-reverse !important;
+    padding: 11px 20px !important;
+}
+
+[dir="rtl"] .p-button {
+    flex-direction: row !important;
+    padding: 7px 30px !important;
+}
+
+.chat {
+    position: fixed;
+    top: calc(100vh - 90px);
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    padding: 10px !important;
+    background-color: $secondColorDark !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    left: 28px;
+
+    span {
+        color: var(--white, #FFF);
+        font-size: 11.03px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 181.5%;
+
+        /* 20.02px */
+        @media screen and (width < 500px) {
+            font-size: 7px;
+        }
+    }
+
+    svg {
+        @media screen and (width < 500px) {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    @media screen and (width < 767px) {
+        width: 60px;
+        height: 60px;
+    }
+
+
+}
+
+
+
+
+
+.social_left_app {
+    position: fixed;
+    top: calc(100vh - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+    top: 40%;
+
+
+    .facebook {
+        background-color: #3E5C9A;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+    
+    }
+
+    .linkedin {
+        background-color: #117BB8;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+ 
+    }
+
+    .twitter {
+        background-color: #231F20;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .youtube {
+        background-color: #C3271A;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .whatsapp {
+        background-color: #65BC54;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .facebook,
+    .linkedin,
+    .twitter,
+    .whatsapp,
+    .youtube {
+        @media screen and (width < 767px) {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+
+[dir="rtl"] .social_left_app {
+    left: 0;
+}
+
+[dir="ltr"] .social_left_app {
+    right: 0;
+}
+
+.social_left_app_hotline {
+    position: fixed;
+    top: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    right: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.15) !important;
+    gap: 10px;
+    background-color: $secondColorDark !important;
+    padding: 10px 28px;
+
+    @media screen and (width <767px) {
+        top: calc(100vh - 80px);
+    }
+}

@@ -123,14 +123,14 @@ const Darna = () => {
 
                     <div className="social_left_app_hotline" data-aos="fade-down" data-aos-duration="1000">
                         <motion.a
-                            href={`tel:+201111353089`}
+                            href={`tel:17347`}
                             target='_blank' rel="noreferrer"
                             whileHover={{ scale: 1.2 }}
                             transition={{ duration: 0.3 }}
                             className='flex flex-row gap-2 align-items-center hotline'
 
                         >
-                            <Icons.Phone className='navbar-sm-icons-phone' />  <span className='text-light  '>01111353089</span>
+                            <Icons.Phone className='navbar-sm-icons-phone' />  <span className='text-light  '>17347</span>
                         </motion.a>
 
                     </div>

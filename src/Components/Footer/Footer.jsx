@@ -87,7 +87,7 @@ export const Footer = () => {
                                                     transition={{ duration: 0.3 }}
                                                 >
                                                     <div style={{ width: '25px', height: '25px' }}>
-                                                        <img src={img.youtube} className='w-100 object-fit-contain' alt="" srcset="" />
+                                                        <img src={img.youtubeLight} className='w-100 object-fit-contain' alt="" srcset="" />
                                                     </div>
                                                 </motion.a>
 

@@ -79,7 +79,7 @@ const NavBar = ({ navbarColor }) => {
                                     transition={{ duration: 0.3 }}
                                     className='flex flex-row gap-2 align-items-center hotline'
                                 >
-                                    <Icons.Phone className='navbar-sm-icons-phone' />  <span className='text-light  '>01111353089</span>
+                                    <Icons.Phone className='text-light no-fill' />  <span className='text-light  '>17347</span>
                                 </motion.a>
                                 <div className="sm_navbar">
                                     <motion.a
@@ -87,7 +87,7 @@ const NavBar = ({ navbarColor }) => {
                                         target='_blank' rel="noreferrer"
                                         className='flex flex-row gap-2 align-items-center line3 '
                                     >
-                                        <Icons.location className='navbar-sm-icons-phone' />  <span className='text-light navbar_icons_sm'>     {t('contact_address')}</span>
+                                        <Icons.location className='navbar-sm-icons-phone navbar-location' />  <span className='text-black navbar_icons_sm'>     {t('contact_address')}</span>
                                     </motion.a>
                                 </div>
                                 <div className="social">
@@ -95,12 +95,12 @@ const NavBar = ({ navbarColor }) => {
                                         <motion.a
                                             href={'https://www.facebook.com/darnarealstate/'}
                                             target='_blank' rel="noreferrer"
-                                            whileHover={{ scale: 1.5 }}
+                                            whileHover={{ scale: 1.3 }}
                                             transition={{ duration: 0.3 }}
                                             className='m-0 p-0'
                                         >
-                                            <div style={{ width: '25px', height: '25px' }}>
-                                                <img src={img.facebook} className='w-100 object-fit-contain' alt="" srcset="" />
+                                            <div>
+                                                <img src={img.facebook} className alt="" srcset="" />
                                             </div>
                                         </motion.a>
                                         {/*                         <motion.a
@@ -114,37 +114,38 @@ const NavBar = ({ navbarColor }) => {
                                             </div>
                                         </motion.a>  */}
                                         <motion.a
-                                            href={'https://www.facebook.com/'}
+                                            href=""
                                             target='_blank' rel="noreferrer"
-                                            whileHover={{ scale: 1.5 }}
+                                            whileHover={{ scale: 1.2 }}
                                             transition={{ duration: 0.3 }}
                                         >
                                             <div style={{ width: '25px', height: '25px' }}>
-                                                <img src={img.linkedin} className='w-100 object-fit-contain' alt="" srcset="" />
+                                                <img src={img.x} className='' alt="" srcset="" />
                                             </div>
                                         </motion.a>
                                         <motion.a
-                                            href={'https://www.facebook.com/'}
+                                            href={'https://www.linkedin.com/in/darnadevelopments'}
                                             target='_blank' rel="noreferrer"
-                                            whileHover={{ scale: 1.5 }}
+                                            whileHover={{ scale: 1.3 }}
                                             transition={{ duration: 0.3 }}
                                         >
-
-                                            <div style={{ width: '25px', height: '25px' }}>
-                                                <img src={img.youtube} className='w-100 object-fit-contain' alt="" srcset="" />
+                                            <div>
+                                                <img src={img.linkedin}  className='' alt="" srcset="" />
                                             </div>
                                         </motion.a>
-
                                         <motion.a
-                                            href="https://wa.me/+201111353089"
+                                            href={'https://www.youtube.com/@darnadevelopments'}
                                             target='_blank' rel="noreferrer"
-                                            whileHover={{ scale: 1.5 }}
+                                            whileHover={{ scale: 1.1 }}
                                             transition={{ duration: 0.3 }}
                                         >
-                                            <div style={{ width: '25px', height: '25px' }}>
-                                                <img src={img.whatsapp} className='w-100 object-fit-contain' alt="" srcset="" />
+
+                                            <div>
+                                                <img src={img.youtube} alt="" srcset="" />
                                             </div>
                                         </motion.a>
+
+                                        
                                     </div>
                                 </div>
 
@@ -208,7 +209,7 @@ const NavBar = ({ navbarColor }) => {
                             </Nav>
                         </div>
                         <div className="sidebar_lg">
-                            <Button icon={<MenuOutlinedIcon fontSize='medium' sx={{ color: '#fff' }} />} rounded outlined severity="secondary" onClick={() => setVisibleRight(true)} />
+                            <Button icon={<MenuOutlinedIcon fontSize='medium' sx={{ color: '#fff' }} />} rounded outlined style={{color: 'white'}} onClick={() => setVisibleRight(true)} />
                         </div>
                         <Sidebar className='bg_sidebar view_sidebar_home-page' position={cookies.get('i18next') === "en" ? "right" : "right"} visible={visibleRight} onHide={() => setVisibleRight(false)}>
                             <div className="navbar_sm_page  ">
@@ -286,7 +287,7 @@ const NavBar = ({ navbarColor }) => {
                     </div>
                     <Link to='/' onClick={() => window.scroll(0, 0)}>
 
-                        <img src={img.Logo} style={{ width: '73px', height: '63px' }} alt="logo right click" />
+                        <img src={img.Logo} style={{ width: '100%', height: '92px' }} alt="logo right click" />
 
                     </Link>
                 </div>

@@ -46,9 +46,11 @@ import mediaBg5 from '../assets/Images/media/project-details-5.png'
 
 
 import facebook from '../assets/Images/facebook.png'
-import linkedin from '../assets/Images/linkedin (1).png'
+import linkedin from '../assets/Images/linkedin.png'
 import twitter from '../assets/Images/twitter.png'
 import youtube from '../assets/Images/youtube.png'
+import youtubeLight from '../assets/Images/youtubeLight.png'
+import x from '../assets/Images/x.png'
 
 
 import builds1 from '../assets/Images/build/builds1.png'
@@ -158,6 +160,8 @@ const img = {
     linkedin,
     twitter,
     youtube,
+    youtubeLight,
+    x,
     builds8,
     builds9,
     builds10,

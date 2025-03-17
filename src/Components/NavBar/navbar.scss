@@ -1,16 +1,18 @@
 @import '../../style/varibale';
 
+
 .fixed-top {
     top: 64px !important;
     margin: 0 !important;
     padding: 0 !important;
-    background: rgba(15, 30, 67, 0.70) !important;
+    // background: rgba(15, 30, 67, 0.70) !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(102, 102, 102, 0.5 ));
     height: 93px;
     display: flex !important;
     justify-content: center !important;
 
     @media screen and (width <1025px) {
-        background-color: $mainColor !important;
+        background-color: rgba($color: #000000, $alpha: 0.5) !important;
     }
 }
 
@@ -29,7 +31,7 @@
     left: 0;
     right: 0;
     z-index: 88888;
-    background-color: $mainColor !important;
+    background-color: $whiteColor !important;
     height: 64px !important;
 
     &.hide {
@@ -40,12 +42,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
+        
         height: 100%;
-        background-color: $mainColor !important;
+        background-color: $whiteColor !important;
         margin: auto;
 
         @media screen and (width <1025px) {
-            background-color: $secondColor !important;
+            background-color: $whiteColor !important;
         }
 
         .calling {
@@ -55,41 +59,41 @@
             justify-content: space-between;
             position: relative;
 
-            &::before {
-                content: '';
-                position: absolute;
-                display: block;
-                width: 1px;
-                height: 70%;
-                background-color: $light;
+            // &::before {
+            //     content: '';
+            //     position: absolute;
+            //     display: block;
+            //     width: 1px;
+            //     height: 70%;
+            //     background-color: $blackColor;
 
-                /* Adjust the position based on your design */
-                border-radius: 5px;
+            //     /* Adjust the position based on your design */
+            //     border-radius: 5px;
 
-                @media screen and (width < 993px) {
-                    display: none !important;
-                }
+            //     @media screen and (width < 993px) {
+            //         display: none !important;
+            //     }
 
-                @media screen and (width < 1200px) {
-                    left: calc(20% - -20.75px);
-                }
-            }
+            //     @media screen and (width < 1200px) {
+            //         left: calc(20% - -20.75px);
+            //     }
+            // }
 
-            &::after {
-                content: '';
-                position: absolute;
-                display: block;
-                width: 1px;
-                height: 70%;
-                background-color: $light;
+            // &::after {
+            //     content: '';
+            //     position: absolute;
+            //     display: block;
+            //     width: 1px;
+            //     height: 70%;
+            //     background-color: $light;
 
 
-                @media screen and (width < 993px) {
-                    display: none !important;
-                }
+            //     @media screen and (width < 993px) {
+            //         display: none !important;
+            //     }
 
-                border-radius: 5px;
-            }
+            //     border-radius: 5px;
+            // }
 
             // .line3 {
 
@@ -110,13 +114,13 @@
             //     }
             // }
 
-            svg {
-                width: 15px !important;
-                height: 15px !important;
-            }
+            // svg {
+            //     width: 17px !important;
+            //     height: 20px !important;
+            // }
 
             .hotline {
-                background-color: $secondColor;
+                background: linear-gradient(to right, $blackColor, $greyColor);
                 border-radius: 30px;
                 box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.15) !important;
                 gap: 10px;
@@ -137,10 +141,9 @@
 
 
 
-            svg {
-                width: 15px !important;
-
-            }
+            // svg {
+            //     width: 15px !important;
+            // }
 
             .nav1__home_svg {
                 svg {
@@ -184,6 +187,7 @@
                 gap: 10px;
                 width: 157px; 
                 justify-content: end;
+
             }
 
             position: relative;
@@ -214,7 +218,7 @@
     transition: all 0.5s;
 
     &.scroll {
-        background: $mainColor !important;
+        background: $whiteColor !important;
         top: 0px !important;
 
         .Logo__RightClick {
@@ -247,9 +251,10 @@
 
 .navbar-sm-icons-phone {
     path {
-        fill: $light;
+        fill: $blackColor;
     }
 }
+
 
 .app__navbar {
     background-color: #F7FCFF !important;
@@ -318,6 +323,7 @@
 }
 
 .navbar_icons_sm {
+    font-weight: 400;
     @media screen and (width < 767px) {
         display: none;
     }
@@ -373,7 +379,7 @@
 }
 
 .bg_sidebar {
-    background-color: $mainColor !important;
+    background-color: $blackColor !important;
     // padding: 0px !important;
 }
 
@@ -411,7 +417,7 @@
 
             path {
                 transition: all 0.6s;
-                stroke: #0E0E0E
+                // stroke: #0E0E0E
             }
 
         }
@@ -425,38 +431,38 @@
             text-transform: uppercase;
         }
 
-        &:hover {
-            color: $secondColor !important;
+        // &:hover {
+        //     color: $secondColor !important;
 
-            .icon {
-                path {
-                    transition: all 0.6s;
-                    // fill: $secondColor;
-                    stroke: $secondColor
-                }
+        //     .icon {
+        //         path {
+        //             transition: all 0.6s;
+        //             // fill: $secondColor;
+        //             stroke: $secondColor
+        //         }
 
-            }
+        //     }
 
-            .line {
-                z-index: 99999999;
+        //     .line {
+        //         z-index: 99999999;
 
-                path {
-                    stroke: $light !important
-                }
+        //         path {
+        //             stroke: $light !important
+        //         }
 
-            }
+        //     }
 
-            .link_text {
-                transition: all 0.5s;
-            }
+        //     .link_text {
+        //         transition: all 0.5s;
+        //     }
 
 
 
-            &::before {
-                transition: all 0.6s;
-                width: 100%;
-            }
-        }
+        //     &::before {
+        //         transition: all 0.6s;
+        //         width: 100%;
+        //     }
+        // }
 
     }
 
@@ -549,10 +555,7 @@
 .dropdown-item {
     padding: 10px !important;
     transition: all 0.5s;
-
-    &:hover {
-        background-color: $secondColorDark !important;
-    }
+    color: #000000;
 }
 
 .dropdown-menu {

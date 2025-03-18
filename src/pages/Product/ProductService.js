@@ -72,7 +72,7 @@ export const ProductService = {
                 titleEn: "Investment guarantee",
                 bodyAr: "يوجد في دارنا فريق متخصص وذو كفاءة عالية من خبراء المبيعات والتسويق الذين يقدمون الفرصة المثالية لعملائنا للاستثمار، بدءاً من اختيار الوحدة السكنية التي تضمن نجاح خطتهم الاستثمارية وحتى تقديم خدمة إعادة بيع الوحدة، وفقاً لما ذكره موقع darna. نموذج متكامل مصمم خصيصاً لعملائنا يتضمن وحدات التسعير بشكل دوري وتحديد التوقيت الأمثل لإعادة البيع. ومساعدة العملاء على تسويق الوحدة بأفضل الشروط وفي أسرع وقت",
                 bodyEn: "At DARNA, there is a specialized and highly qualified team of sales and marketing experts who provide the ideal opportunity for our clients to invest, starting from choosing the residential unit that guarantees the success of their investment plan until providing the unit resale service, according to an integrated model designed specifically for our clients, which includes pricing units periodically and determining the best timing for resale. And helping customers market the unit on the best terms and in the fastest time",
-                icon: <Icons.ProductSec2 />
+                icon: <Icons.ProductSec3 />
             },
 
             {
@@ -80,7 +80,7 @@ export const ProductService = {
                 titleEn: "Ensuring the diversity of financial programs",
                 bodyAr: "يوجد في أرتال فريق متخصص وذو كفاءة عالية من خبراء المبيعات والتسويق الذين يقدمون الفرصة المثالية لعملائنا للاستثمار، بدءاً من اختيار الوحدة السكنية التي تضمن نجاح خطتهم الاستثمارية وحتى تقديم خدمة إعادة بيع الوحدة، وفقاً لما ذكره موقع أرتال. نموذج متكامل مصمم خصيصاً لعملائنا يتضمن وحدات التسعير بشكل دوري وتحديد التوقيت الأمثل لإعادة البيع. ومساعدة العملاء على تسويق الوحدة بأفضل الشروط وفي أسرع وقت",
                 bodyEn: "At Artal, there is a specialized and highly qualified team of sales and marketing experts who provide the ideal opportunity for our clients to invest, starting from choosing the residential unit that guarantees the success of their investment plan until providing the unit resale service, according to an integrated model designed specifically for our clients, which includes pricing units periodically and determining the best timing for resale. And helping customers market the unit on the best terms and in the fastest time",
-                icon: <Icons.ProductSec2 />
+                icon: <Icons.ProductSec4 />
             },
 
             {
@@ -88,7 +88,7 @@ export const ProductService = {
                 titleEn: "Ensuring the legal framework ",
                 bodyAr: "نضمن دائمًا أن تخضع عملية التطوير العقاري للأطر القانونية على كافة المستويات، بدءًا من أوراق الملكية والتراخيص، مرورًا بتطبيق معايير البناء والتشييد المنصوص عليها دون أي مخالفات أو مخالفات، وصولاً إلى عقد يضمن المصالح بشكل كامل لكلا الطرفين ويتضمن الأحكام القانونية التي تلزم الشركة بتنفيذ كافة التزاماتها ووعودها. لعملائها، جميع التزاماتنا موثقة ومضمونة",
                 bodyEn: "We always ensure that the real estate development process is subject to legal frameworks at all levels, starting from ownership papers and licenses, through the application of the stipulated building and construction standards without any violations or violations, leading to a contract that fully guarantees the interests of both parties and includes the legal provisions that obligate the company to implement all its obligations and promises. To its customers, all our obligations are documented and guaranteed                ",
-                icon: <Icons.ProductSec2 />
+                icon: <Icons.ProductSec5 />
             },
 
             {
@@ -96,7 +96,7 @@ export const ProductService = {
                 titleEn: "Ensuring excellence in specifications                ",
                 bodyAr: "في دارنا نضمن لعملائنا التمتع بمواصفات مميزة في منازلهم، وذلك لوجود قسم بحث وتطوير متخصص على أعلى درجة من الاحترافية يعمل بشكل مستمر على تحسين المنتج وإضافة ميزات استثنائية لتقديم منتج يتمتع بالعديد من المزايا مواصفات وخصائص تضمن الأمان والراحة والرفاهية لعملائنا، لتكون وحدتك في مشاريع دارنا هي الأفضل دائمًا.",
                 bodyEn: "At DARNA, we guarantee our customers to enjoy distinctive specifications in their homes, due to the presence of a specialized research and development department with the highest degree of professionalism that works continuously to improve the product and add exceptional features to provide a product that has many specifications and characteristics that ensure safety, comfort, and luxury for our customers, so that your unit in DARNA projects is always the best.                ",
-                icon: <Icons.ProductSec2 />
+                icon: <Icons.ProductSec6 />
             },
 
 

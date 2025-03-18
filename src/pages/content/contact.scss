@@ -5,7 +5,7 @@
     .app__service-home {
         .content {
             h1 {
-                color: var(--main-blue, #0F1E43);
+                color: $blackColor;
                 font-family: Cairo;
                 font-size: 25px;
                 font-style: normal;
@@ -18,9 +18,10 @@
             }
 
             p {
-                color: var(--dark, #162A2B);
+                color: $blackColor;
+                font-family: Cairo;
                 text-align: center;
-                font-size: 14px;
+                font-size: 15px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 197.4%;
@@ -37,7 +38,7 @@
                 margin: auto;
                 margin-top: 20px;
                 border-radius: 25px;
-                background-color: $mainColor;
+                background-color: $blackColor;
                 border: $mainColor;
                 transition: all 0.5s;
 
@@ -53,7 +54,7 @@
                 &:hover {
                     transition: all 0.5s;
 
-                    background: linear-gradient(270deg, #d6c485 0%, #0F1E43 106.49%);
+                    background: linear-gradient(to right, $blackColor, $greyColor);
                 }
             }
         }
@@ -61,11 +62,11 @@
 
     .app__form_contact {
         opacity: 0.85;
-        background: var(--main-mint-green, #D6C486);
+        background: rgba(151, 151, 151, 0.23);
         padding: 30px;
 
         h3 {
-            color: $mainColor;
+            color: $blackColor;
             font-family: Cairo;
             font-size: 45px;
             font-style: normal;
@@ -80,8 +81,12 @@
             }
         }
 
+        input {
+            background-color: #fff;
+        }
+
         p {
-            color: $mainColor;
+            color: $blackColor;
             font-family: Cairo;
             font-size: 16px;
             font-style: normal;
@@ -95,13 +100,20 @@
 
         .form {
             input {
-                background-color: transparent;
                 border: 1px solid $mainColor;
+                &:hover {
+                    border-color: inherit !important; /* Keeps the original border color */
+          box-shadow: none !important; /* Disables the shadow */
+                }
+                &:focus {
+                    border-color: inherit !important; /* Keeps the original border color */
+          box-shadow: none !important; /* Disables the shadow */
+                }
             }
 
             .p-button {
                 border-radius: 25px;
-                background-color: $mainColor;
+                background-color: $blackColor;
                 border: $mainColor;
                 transition: all 0.5s;
 
@@ -117,7 +129,7 @@
                 &:hover {
                     transition: all 0.5s;
 
-                    background: linear-gradient(270deg, #d6c485 0%, #0F1E43 106.49%);
+                    background: linear-gradient(to right, $blackColor, $greyColor);
                 }
             }
         }
@@ -126,7 +138,7 @@
 
 .app__contect_contect {
     opacity: 0.85;
-    border: 1px solid $secondColor;
+    border: 1px solid $blackColor;
     padding: 30px;
 
     .logo {
@@ -145,12 +157,12 @@
         svg {
             path {
 
-                fill: #d6c485 !important;
+                fill: $blackColor !important;
             }
         }
 
         h3 {
-            color: var(--dark-mint-green, #d6c485);
+            color: $blackColor;
             font-family: Cairo;
             font-size: 16px;
             font-style: normal;
@@ -267,12 +279,12 @@
         border: 1px solid $blackColor;
 
         &:hover {
-            border-color: inherit !important; /* Keeps the original border color */
-  box-shadow: none !important; /* Disables the shadow */
+            border-color: inherit !important; 
+  box-shadow: none !important; 
         }
         &:focus {
-            border-color: inherit !important; /* Keeps the original border color */
-  box-shadow: none !important; /* Disables the shadow */
+            border-color: inherit !important; 
+  box-shadow: none !important;
         }
     }
 

@@ -71,7 +71,7 @@ const ProductPage = () => {
                     <div className="app_header">
                         <h3 data-aos="flip-left"
                             data-aos-duration="2000"
-                            data-aos-easing="ease-out-cubic">{t('about_darna2')}  <span className='seconed_color'>{t('app_title')}</span></h3>
+                            data-aos-easing="ease-out-cubic">{t('about_darna2')}  <span>{t('app_title')}</span></h3>
                     </div>
                     <Row className='product_none'>
                         {
@@ -216,7 +216,7 @@ const ProductPage = () => {
                     <div className="header">
                         <h3 data-aos="flip-left"
                             data-aos-duration="2000"
-                            data-aos-easing="ease-out-cubic" >{t('about_Partners')}  <span className='seconed_color'>{t('app_title')}</span></h3>
+                            data-aos-easing="ease-out-cubic" >{t('about_Partners')}  <span className=''>{t('app_title')}</span></h3>
                         <p data-aos="flip-left"
                             data-aos-duration="2000"
                             data-aos-easing="ease-out-cubic">{t('about_Partners_BODY')} </p>

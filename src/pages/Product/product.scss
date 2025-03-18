@@ -3,7 +3,7 @@
 .app__products_page {
     .app_header {
         h3 {
-            color: $mainColor;
+            color: $blackColor;
 
             /* Heading 3 */
             font-family: Cairo;
@@ -33,6 +33,8 @@
             line-height: normal;
             width: 70%;
 
+            
+
             @media screen and (width < 767px) {
                 font-size: 16px;
             }
@@ -42,6 +44,10 @@
                 font-size: 16px;
 
             }
+        }
+
+        span { 
+            color: rgba(151, 151, 151, 1);
         }
     }
 
@@ -112,7 +118,7 @@
 }
 
 .item_section_color {
-    background-color: rgba($color: $secondColor, $alpha: 20%);
+    background-color: rgba(151, 151, 151, 0.08);
 
     .h3 {
 
@@ -135,13 +141,13 @@
 
 .item_section_color_sm {
     @media screen and (width < 985px) {
-        background-color: rgba($color: $secondColor, $alpha: 20%);
+        background-color: rgba($color: #fff, $alpha: 20%);
 
     }
 }
 
 .item_section_color_dark {
-    background-color: rgba($color: $secondColorDark, $alpha: 100%);
+    background-color: rgba($color: #000, $alpha: 100%);
 
     .h3 {
         color: var(--white, #FFF);

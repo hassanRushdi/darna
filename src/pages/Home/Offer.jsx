@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import img from '../../constants/Img';
+import Component from '../../constants/Component';
 
 const Offer = () => {
     let { t } = useTranslation()
@@ -15,12 +16,15 @@ const Offer = () => {
     return (
         <div className='app_offers mt-6'>
             <Container >
-                <div className="img_overlay"  
+                {/* <div className="img_overlay"  
                   data-aos="flip-down" data-aos-duration="1500" data-aos-easing="ease-out-cubic">
-                    <img src={img.offer} className='w-100' alt="" />
+                    <img src={img.offer} className='w-100' alt="" /> */}
            {/*          <div className="overlay">
                         <img src={img.offerLeft}   alt="image" srcset="" />
                     </div>  */}
+                {/* </div> */}
+                <div data-aos="flip-down" data-aos-duration="1500" data-aos-easing="ease-out-cubic">
+                <Component.Slider  />
                 </div>
                 <div className="offer_content mt-3" data-aos="flip-left"
                 data-aos-duration="2000"

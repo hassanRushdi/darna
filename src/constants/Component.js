@@ -29,6 +29,8 @@ import Details1_2 from './../pages/Projects/Available/Details1_2';
 import Details3_2 from './../pages/Projects/UnderConstruction/Details3_2';
 import Details2_2 from './../pages/Projects/Previous/Details2_2';
 
+import Slider from '../Components/Slider';
+
 const Component = {
   // Layout
   Darna,
@@ -37,6 +39,7 @@ const Component = {
   Home,
   Video,
   Summary,
+  Slider,
   Offer,
   About,
   Projects,

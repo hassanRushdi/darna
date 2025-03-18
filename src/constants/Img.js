@@ -4,6 +4,7 @@ import EnLang from "../assets/Images/En.png";
 import LogoLight from "../assets/Images/LogoLight.png";
 import offerLeft from '../assets/Images/offers/offer.png'
 import offer from '../assets/Images/offers/oferCover (3).jpg'
+import offer1 from '../assets/Images/offers/offer1.png'
 import About from '../assets/Images/About/about.png'
 import About2 from '../assets/Images/About/about2.png'
 import About3 from '../assets/Images/About/about3.png'
@@ -93,6 +94,7 @@ const img = {
     offerLeft,
     mediaBg,
     offer,
+    offer1,
     About,
     About2,
     project1,

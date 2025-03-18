@@ -218,7 +218,7 @@
     transition: all 0.5s;
 
     &.scroll {
-        background: $whiteColor !important;
+        background: $blackColor !important;
         top: 0px !important;
 
         .Logo__RightClick {
@@ -613,4 +613,9 @@
 
 
     }
+}
+
+.navbar-navOnthorPAge {
+    background-color: $blackColor !important;
+    color: white;
 }

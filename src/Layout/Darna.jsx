@@ -141,7 +141,7 @@ const Darna = () => {
                 <Modal.Header closeButton={false} className='bg-black' >
 
                     <Modal.Title id="contained-modal-title-vcenter"   /* className='  flex justify-content-center align-items-center w-100' */>
-                        <img src={img.Logo} style={{ width: '100%', height: '80px' }} alt="" className='object-fit-contain' />
+                        <img src={img.LogoLight} style={{ width: '100%', height: '80px' }} alt="" className='object-fit-contain' />
                     </Modal.Title>
                     <div className="custom-close-button" onClick={() => setModalShow(false)}>
                         <Icons.CloseBtn className="logoSvg mx-2 cursor-pointer" style={{ width: 35 }} />

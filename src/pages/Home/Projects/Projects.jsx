@@ -16,10 +16,10 @@ import Slider from 'react-slick'
 const theme = createTheme({
     palette: {
         primary: {
-            main: '#1976d2', // your primary color 
+            main: '#1A1818', // your primary color 
         },
         secondary: {
-            main: '#D6C486', // your new secondary color 
+            main: '#1A1818', // your new secondary color 
         },
     },
 });

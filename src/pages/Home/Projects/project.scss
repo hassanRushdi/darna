@@ -5,7 +5,7 @@
     margin: auto;
 
     h2 {
-        color: $mainColor;
+        color: #1A1818;
         font-family: Cairo;
         font-size: 45px;
         font-style: normal;
@@ -20,7 +20,7 @@
 
     .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
         transition: all 0.5s;
-        background-color: $secondColorDark;
+        background-color: $blackColor;
         width: 2rem;
     }
 
@@ -54,7 +54,7 @@
 }
 
 .app__project_site {
-    background-color: #FFF5D3;
+    background-color: rgba(220, 220, 220, 0.4);
     transition: all 5s !important;
     margin-bottom: 200px !important;
     margin-top: 150px !important;
@@ -211,7 +211,7 @@
     }
 
     h1 {
-        color: $mainColor;
+        color: #1A1818;
         font-family: Cairo;
         font-size: 45px;
         font-style: normal;
@@ -224,11 +224,11 @@
     }
 
     p {
-        color: $mainColor;
+        color: #1A1818;
         font-family: Cairo;
         font-size: 24px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 200;
         line-height: normal;
 
 
@@ -237,7 +237,7 @@
         }
 
         span {
-            color: $secondColorDark;
+            color: #1A1818;
             font-family: Cairo;
             font-size: 24px;
             font-style: normal;
@@ -255,8 +255,8 @@
         gap: 10px;
         display: flex;
         border-radius: 25px;
-        background: $secondColorDark !important;
-        border: $secondColorDark !important;
+        background: linear-gradient(to right, $blackColor, $greyColor) !important ; 
+        border: $blackColor !important;
         padding: 11px 20px;
 
         @media screen and (width < 821px) {
@@ -279,11 +279,11 @@
 
     }
 
-    .p-button:enabled:hover,
-    .p-button:not(button):not(a):not(.p-disabled):hover {
-        background: linear-gradient(270deg, #d6c485 0%, #0F1E43 106.49%) !important;
+    // .p-button:enabled:hover,
+    // .p-button:not(button):not(a):not(.p-disabled):hover {
+    //     background: linear-gradient(270deg, #d6c485 0%, #0F1E43 106.49%) !important;
 
-    }
+    // }
 }
 
 
@@ -296,9 +296,9 @@
     span {
         position: absolute;
         border-radius: 30px;
-        background: $secondColorDark;
+        background: $whiteColor;
         top: 15px;
-        color: $light;
+        color: $blackColor;
         text-align: center;
         padding: 5px 10px;
         font-family: Cairo;
@@ -336,4 +336,13 @@
 
  .p-image-preview-container:hover > .p-image-preview-indicator {
      background-color: transparent !important;   
+}
+
+.right, .left {
+    svg { 
+        path {
+            fill: $blackColor;
+            stroke: $blackColor;
+        }
+    }
 }

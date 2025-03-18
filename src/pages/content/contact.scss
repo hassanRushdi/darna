@@ -225,19 +225,20 @@
 
 .modal-footer,
 .modal-header {
-    background-color: #0F1E43 !important;
+    background-color: $blackColor !important;
 }
 
-.modal-header {
-    border-bottom: 5px solid $secondColor !important
-}
+// .modal-header {
+//     border-bottom: 5px solid $secondColor !important
+// }
 
-.modal-footer {
-    border-top: 5px solid $secondColor !important
-}
+// .modal-footer {
+//     border-top: 5px solid $secondColor !important
+// }
 
 .title_header {
-    color: var(--dark-mint-green, #d6c485);
+    // color: var(--dark-mint-green, #d6c485);
+    color: $blackColor;
     font-family: Cairo;
     font-size: 14px;
     font-style: normal;
@@ -249,7 +250,7 @@
 
 .grop_form {
     label {
-        color: var(--main-blue, #0F1E43);
+        color: $blackColor;
         font-family: Cairo;
         font-size: 14.81px;
         font-style: normal;
@@ -263,16 +264,26 @@
 .app__form_contact2 {
     input {
         background-color: transparent;
-        border: 1px solid $mainColor;
+        border: 1px solid $blackColor;
+
+        &:hover {
+            border-color: inherit !important; /* Keeps the original border color */
+  box-shadow: none !important; /* Disables the shadow */
+        }
+        &:focus {
+            border-color: inherit !important; /* Keeps the original border color */
+  box-shadow: none !important; /* Disables the shadow */
+        }
     }
+
 
     .p-button {
         border-radius: 25px;
-        background-color: $mainColor;
-        border: $mainColor;
-        transition: all 0.5s;
+        border: $blackColor;
+        // transition: all 0.5s;
         width: 70%;
         margin: auto;
+        background: linear-gradient(to right, $blackColor, $greyColor);
         span {
             color: var(--white, #FFF);
             font-family: Roboto;
@@ -285,7 +296,7 @@
         &:hover {
             transition: all 0.5s;
 
-            background: linear-gradient(270deg, #d6c485 0%, #0F1E43 106.49%) !important;
+            background: linear-gradient(to right, $blackColor, $greyColor) !important;
         }
     }
 }

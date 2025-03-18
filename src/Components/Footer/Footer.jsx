@@ -43,7 +43,7 @@ export const Footer = () => {
                                     data-aos-duration="1500"
                                     data-aos-easing="ease-out-cubic" xl={3} lg={3} md={6} sm={12} className=' content1      mt-3 app_icons_footer_sm'   >
                                     <div className='bg- ' >
-                                        <img src={img.LogoLight} style={{ width: '148px', height: '142px' }} alt="logo right click" />
+                                        <img src={img.Logo} style={{ width: '148px', height: '142px' }} alt="logo right click" />
                                         <br />
                                         <div className="social flex flex-row justify-content-center align-items-center  gap-3">
 
@@ -87,7 +87,7 @@ export const Footer = () => {
                                                     transition={{ duration: 0.3 }}
                                                 >
                                                     <div style={{ width: '25px', height: '25px' }}>
-                                                        <img src={img.youtubeLight} className='w-100 object-fit-contain' alt="" srcset="" />
+                                                        <img src={img.youtubeLight2} className='w-100 object-fit-contain' alt="" srcset="" />
                                                     </div>
                                                 </motion.a>
 
@@ -172,7 +172,7 @@ export const Footer = () => {
                                         data-aos-duration="1500"
                                         data-aos-anchor-placement="top-bottom"
                                         data-aos-easing="ease-out-cubic">
-                                        <img src={img.LogoLight} style={{ width: '148px', height: '142px' }} alt="logo right click" />
+                                        <img src={img.Logo} style={{ width: '172px', height: '122px' }} alt="logo right click" />
                                         <br />
                                         <div className="social flex flex-row justify-content-center align-items-center  gap-3">
 
@@ -216,7 +216,7 @@ export const Footer = () => {
                                                     transition={{ duration: 0.3 }}
                                                 >
                                                     <div style={{ width: '25px', height: '25px' }}>
-                                                        <img src={img.youtube} className='w-100 object-fit-contain' alt="" srcset="" />
+                                                        <img src={img.youtubeLight2} className='w-100 object-fit-contain' alt="" srcset="" />
                                                     </div>
                                                 </motion.a>
 
@@ -246,7 +246,7 @@ export const Footer = () => {
                             data-aos-anchor-placement="top-bottom"
                             data-aos-easing="ease-out-cubic">
                             <p>
-                                <a href="https://vigtas.com/" target='_blank' className='text-light'>&copy; 2023 Vigtas</a>
+                                <a href="https://vigtas.com/" target='_blank' className='text-dark'>&copy; 2023 Vigtas</a>
                             </p>
                         </div>
 

@@ -50,6 +50,7 @@ import linkedin from '../assets/Images/linkedin.png'
 import twitter from '../assets/Images/twitter.png'
 import youtube from '../assets/Images/youtube.png'
 import youtubeLight from '../assets/Images/youtubeLight.png'
+import youtubeLight2 from '../assets/Images/youtubeLight2.png'
 import x from '../assets/Images/x.png'
 
 
@@ -161,6 +162,7 @@ const img = {
     twitter,
     youtube,
     youtubeLight,
+    youtubeLight2,
     x,
     builds8,
     builds9,

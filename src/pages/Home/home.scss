@@ -74,7 +74,7 @@
     margin-top: - calc(111px / 2);
     border-radius: 82px;
     background: var(--white, #FFF);
-    box-shadow: 0px 4px 20px 0px rgba(214, 196, 134, 0.70);
+    box-shadow: 0px 4px 20px 0px rgba(151, 151, 151, 0.6);
 
 
 
@@ -104,7 +104,7 @@
 
     .projects {
       .num {
-        color: var(--dark-mint-green, #d6c485);
+        color: var(--dark-mint-green, $blackColor);
         font-family: Cairo;
         font-size: 32px;
         font-style: normal;
@@ -173,7 +173,7 @@
 
   .offer_content {
     h1 {
-      color: #0F1E43;
+      color: $blackColor;
       font-family: Cairo;
       font-size: 45px;
       font-style: normal;
@@ -214,7 +214,7 @@
 // ==============================================================================
 .app__about {
   h1 {
-    color: $mainColor;
+    color: $blackColor;
     /* Heading 3 */
     font-family: Cairo;
     font-size: 45px;
@@ -254,7 +254,7 @@
   align-items: center;
   padding: 40px 0;
   opacity: 0.8;
-  background: linear-gradient(90deg, #d6c485 0%, #112142 100%);
+  background: linear-gradient(to right, $blackColor, $greyColor);
 
   h3 {
     color: var(--white, #FFF);
@@ -283,11 +283,12 @@
 
   button {
     border-radius: 27.443px;
-    border: 1.098px solid var(--main-mint-green, #D6C486);
+    border: 1.098px solid var(--main-mint-green, white);
     box-shadow: 0px 2.1954px 4.3908px 0px rgba(0, 0, 0, 0.15);
-    background-color: transparent;
+    background-color: white;
     padding: 11px 36px;
-    color: $secondColor;
+    color: $blackColor;
+    font-weight: 800;
   }
 
 }

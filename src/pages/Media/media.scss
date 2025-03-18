@@ -42,7 +42,7 @@
     }
 
     .active-button {
-        background-color: $mainColor ;
+        background-color: $blackColor ;
         border-radius: 50px !important;
 
         span {
@@ -56,8 +56,13 @@
         }
 
         &:hover {
-            background-color: $mainColor !important;
+            background-color: $blackColor !important;
 
+        }
+
+        &:focus {
+            border-color: black !important; 
+            outline: none;
         }
     }
 }

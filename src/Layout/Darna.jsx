@@ -87,7 +87,7 @@ const Darna = () => {
                             transition={{ duration: 0.3 }}
                         >
                             <div className="youtube" data-aos="fade-down" data-aos-duration="2000" data-aos-delay={700} >
-                                <img src={img.youtube} alt="" className='w-100' />
+                                <img src={img.youtubeLight} alt="" className='w-100' />
                             </div>
                         </motion.a>
 
@@ -100,7 +100,7 @@ const Darna = () => {
                             transition={{ duration: 0.3 }}
                         >
                             <div className="whatsapp" data-aos="fade-down" data-aos-duration="2000" data-aos-delay={500} >
-                                <img src={img.whatsapp} alt="" className='w-100' />
+                                <img src={img.whatsappLight} alt="" className='w-100' />
                             </div>
                         </motion.a>
                         {/* 

@@ -114,13 +114,13 @@ const NavBar = ({ navbarColor }) => {
                                             </div>
                                         </motion.a>  */}
                                         <motion.a
-                                            href=""
+                                            href="https://wa.me/+201111353089"
                                             target='_blank' rel="noreferrer"
                                             whileHover={{ scale: 1.2 }}
                                             transition={{ duration: 0.3 }}
                                         >
-                                            <div style={{ width: '25px', height: '25px' }}>
-                                                <img src={img.x} className='' alt="" srcset="" />
+                                            <div style={{width: '25px'}}>
+                                                <img src={img.whatsappDark} className='object-fit-contain w-100' alt="" srcset="" />
                                             </div>
                                         </motion.a>
                                         <motion.a

@@ -11,6 +11,8 @@ import About3 from '../assets/Images/About/about3.png'
 import About4 from '../assets/Images/About/about4.png'
 import About5 from '../assets/Images/About/about5.png'
 import whatsapp from '../assets/Images/whatsapp.png'
+import whatsappDark from '../assets/Images/whatsapp-dark.png'
+import whatsappLight from '../assets/Images/whatsapp-light.png'
 import project1 from '../assets/Images/Projects/project1.png'
 import project2 from '../assets/Images/Projects/project2.png'
 import project3 from '../assets/Images/Projects/project3.png'
@@ -108,6 +110,8 @@ const img = {
     MapAbout,
     ContentPage,
     whatsapp,
+    whatsappDark,
+    whatsappLight,
     LogoLight,
     About4,
     About5,

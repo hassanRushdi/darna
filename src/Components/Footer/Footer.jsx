@@ -200,7 +200,7 @@ export const Footer = () => {
                                                 </motion.a> */}
 
                                                 <motion.a
-                                                    href={'https://www.linkedin.com/'}
+                                                    href={'https://www.linkedin.com/in/darnadevelopments'}
                                                     target='_blank' rel="noreferrer"
                                                     whileHover={{ scale: 1.5 }}
                                                     transition={{ duration: 0.3 }}
@@ -210,7 +210,7 @@ export const Footer = () => {
                                                     </div>
                                                 </motion.a>
                                                 <motion.a
-                                                    href={'https://www.youtube.com/'}
+                                                    href={'https://www.youtube.com/@darnadevelopments'}
                                                     target='_blank' rel="noreferrer"
                                                     whileHover={{ scale: 1.5 }}
                                                     transition={{ duration: 0.3 }}
@@ -227,7 +227,7 @@ export const Footer = () => {
                                                     transition={{ duration: 0.3 }}
                                                 >
                                                     <div style={{ width: '25px', height: '25px' }}>
-                                                        <img src={img.whatsapp} className='w-100 object-fit-contain' alt="" srcset="" />
+                                                        <img src={img.whatsappLight} className='w-100 object-fit-contain' alt="" srcset="" />
                                                     </div>
                                                 </motion.a>
                                             </div>

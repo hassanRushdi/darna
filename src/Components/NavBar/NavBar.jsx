@@ -73,7 +73,7 @@ const NavBar = ({ navbarColor }) => {
                         <Navbar className={`px-4 navbar__social-Container  `} >
                             <div className="calling w-100 container flex justify-content-between">
                                 <motion.a
-                                    href={`tel:+201111353089`}
+                                    href={`tel:17347`}
                                     target='_blank' rel="noreferrer"
                                     whileHover={{ scale: 1.1 }}
                                     transition={{ duration: 0.3 }}

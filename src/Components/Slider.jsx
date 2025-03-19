@@ -12,12 +12,9 @@ const Slider = () => {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img className="d-block " src={img.offer} alt="Second slide" />
+          <img className="d-block " src={img.offer2} alt="Second slide" />
         </Carousel.Item>
 
-        <Carousel.Item>
-          <img className="d-block " src={img.offer} alt="Third slide" />
-        </Carousel.Item>
       </Carousel>
     </div>
   );

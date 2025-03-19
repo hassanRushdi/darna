@@ -57,7 +57,7 @@ const Darna = () => {
                     <div className="social_left_app flex gap-2">
 
                         <motion.a
-                            href={'https://www.youtube.com/'}
+                            href={'https://www.facebook.com/darnarealstate'}
                             target='_blank' rel="noreferrer"
                             whileHover={{ scale: 1.3 }}
                             transition={{ duration: 0.3 }}
@@ -69,7 +69,7 @@ const Darna = () => {
 
 
                         <motion.a
-                            href={'https://www.youtube.com/'}
+                            href={'https://www.linkedin.com/in/darnadevelopments'}
                             target='_blank' rel="noreferrer"
                             whileHover={{ scale: 1.3 }}
                             transition={{ duration: 0.3 }}
@@ -81,7 +81,7 @@ const Darna = () => {
 
 
                         <motion.a
-                            href={'https://www.youtube.com/'}
+                            href={'https://www.youtube.com/@darnadevelopments'}
                             target='_blank' rel="noreferrer"
                             whileHover={{ scale: 1.3 }}
                             transition={{ duration: 0.3 }}

@@ -57,7 +57,7 @@ const Details3_2 = () => {
               <div    data-aos="zoom-in-up"
                 data-aos-duration="1000"
                 data-aos-easing="linear"className="ready flex flex-row align-items-center justify-content-center gap-4">
-                <Icons.Time />
+                <Icons.clockDanger />
                 <div className="content  ">
                   <h3 className='m-0 p-0'>150</h3>
                   <p className='m-0 p-0'>days left for delivery</p>

@@ -91,6 +91,7 @@ import { ReactComponent as DoneP } from '../assets/SVG/Done.svg';
 import { ReactComponent as Calendar } from '../assets/SVG/calendarofficeschedule.svg';
 import { ReactComponent as Call } from '../assets/SVG/call_main_color.svg';
 import { ReactComponent as Time } from '../assets/SVG/clock.svg';
+import { ReactComponent as clockDanger } from '../assets/SVG/clockDanger.svg';
 import { ReactComponent as Dotes } from '../assets/SVG/dots.svg';
 import { ReactComponent as GoldLine } from '../assets/SVG/gold.svg';
 import { ReactComponent as Linkedin } from '../assets/SVG/linkedin.svg';
@@ -147,6 +148,7 @@ const Icons = {
     ProductSec6,
     Dotes,
     Time,
+    clockDanger,
     syatem1_1,
     syatem1_2,
     syatem1_3,

@@ -16,7 +16,7 @@
 
 .app__building {
     margin-top: 50px;
-
+    background-color: $whiteColor;
     .content {
         .header {
             display: flex;
@@ -24,7 +24,7 @@
             gap: 2px;
 
             h3 {
-                color: $secondColorDark;
+                color: $blackColor;
                 font-family: Cairo;
                 font-size: 25px;
                 font-style: normal;
@@ -40,7 +40,7 @@
 
         .list {
             p {
-                color: $mainColor;
+                color: $blackColor;
                 font-weight: 700;
 
                 @media screen and (width<1025px) {
@@ -88,9 +88,9 @@
         }
 
         .ready {
-            background-color: $mainColor;
+            background-color: $blackColor;
             border-radius: 77px;
-            box-shadow: 0px 4px 25px 0px rgba(161, 110, 13, 0.60);
+            box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.6);
             width: fit-content;
             width: 313px;
             height: 105px;
@@ -152,7 +152,7 @@
 
     .draw {
         padding: 80px;
-        background-color: $mainColor;
+        background-color: #000 !important;
         display: flex;
         flex-direction: column;
         gap: 20px;

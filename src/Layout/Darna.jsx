@@ -57,7 +57,7 @@ const Darna = () => {
                     <div className="social_left_app flex gap-2">
 
                         <motion.a
-                            href={'https://www.facebook.com/darnarealstate'}
+                            href={'https://www.facebook.com/darnadevelopments'}
                             target='_blank' rel="noreferrer"
                             whileHover={{ scale: 1.3 }}
                             transition={{ duration: 0.3 }}
@@ -69,7 +69,7 @@ const Darna = () => {
 
 
                         <motion.a
-                            href={'https://www.linkedin.com/in/darnadevelopments'}
+                            href={'https://www.linkedin.com/company/darnadevelopments/'}
                             target='_blank' rel="noreferrer"
                             whileHover={{ scale: 1.3 }}
                             transition={{ duration: 0.3 }}
@@ -115,7 +115,7 @@ const Darna = () => {
                             </div>
                         </a> */}
 
-                        <a href={'https://www.youtube.com/'} target='_blank' rel="noreferrer"  >
+                        <a href={'https://www.youtube.com/@darnadevelopments'} target='_blank' rel="noreferrer"  >
 
                         </a>
 
@@ -141,7 +141,7 @@ const Darna = () => {
                 <Modal.Header closeButton={false} className='bg-black' >
 
                     <Modal.Title id="contained-modal-title-vcenter"   /* className='  flex justify-content-center align-items-center w-100' */>
-                        <img src={img.LogoLight} style={{ width: '100%', height: '80px' }} alt="" className='object-fit-contain' />
+                        <img src={img.Logo} style={{ width: '100%', height: '80px' }} alt="" className='object-fit-contain' />
                     </Modal.Title>
                     <div className="custom-close-button" onClick={() => setModalShow(false)}>
                         <Icons.CloseBtn className="logoSvg mx-2 cursor-pointer" style={{ width: 35 }} />

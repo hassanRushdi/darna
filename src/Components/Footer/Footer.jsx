@@ -49,7 +49,7 @@ export const Footer = () => {
 
                                             <div className="social_media flex gap-2">
                                                 <motion.a
-                                                    href={'https://www.facebook.com/darnarealstate/'}
+                                                    href={'https://www.facebook.com/darnadevelopments'}
                                                     target='_blank' rel="noreferrer"
                                                     whileHover={{ scale: 1.5 }}
                                                     transition={{ duration: 0.3 }}
@@ -71,7 +71,7 @@ export const Footer = () => {
                                                 </motion.a> */}
 
                                                 <motion.a
-                                                    href={'https://www.linkedin.com/'}
+                                                    href={'https://www.linkedin.com/company/darnadevelopments/'}
                                                     target='_blank' rel="noreferrer"
                                                     whileHover={{ scale: 1.5 }}
                                                     transition={{ duration: 0.3 }}
@@ -81,7 +81,7 @@ export const Footer = () => {
                                                     </div>
                                                 </motion.a>
                                                 <motion.a
-                                                    href={'https://www.youtube.com/'}
+                                                    href={'https://www.youtube.com/@darnadevelopments'}
                                                     target='_blank' rel="noreferrer"
                                                     whileHover={{ scale: 1.5 }}
                                                     transition={{ duration: 0.3 }}
@@ -178,7 +178,7 @@ export const Footer = () => {
 
                                             <div className="social_media flex gap-2">
                                                 <motion.a
-                                                    href={'https://www.facebook.com/darnarealstate'}
+                                                    href={'https://www.facebook.com/darnadevelopments'}
                                                     target='_blank' rel="noreferrer"
                                                     whileHover={{ scale: 1.5 }}
                                                     transition={{ duration: 0.3 }}
@@ -200,7 +200,7 @@ export const Footer = () => {
                                                 </motion.a> */}
 
                                                 <motion.a
-                                                    href={'https://www.linkedin.com/in/darnadevelopments'}
+                                                    href={'https://www.linkedin.com/company/darnadevelopments/'}
                                                     target='_blank' rel="noreferrer"
                                                     whileHover={{ scale: 1.5 }}
                                                     transition={{ duration: 0.3 }}

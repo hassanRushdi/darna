@@ -93,7 +93,7 @@ const NavBar = ({ navbarColor }) => {
                                 <div className="social">
                                     <div className="social_media">
                                         <motion.a
-                                            href={'https://www.facebook.com/darnarealstate/'}
+                                            href={'https://www.facebook.com/darnadevelopments'}
                                             target='_blank' rel="noreferrer"
                                             whileHover={{ scale: 1.3 }}
                                             transition={{ duration: 0.3 }}
@@ -124,7 +124,7 @@ const NavBar = ({ navbarColor }) => {
                                             </div>
                                         </motion.a>
                                         <motion.a
-                                            href={'https://www.linkedin.com/in/darnadevelopments'}
+                                            href={'https://www.linkedin.com/company/darnadevelopments/'}
                                             target='_blank' rel="noreferrer"
                                             whileHover={{ scale: 1.3 }}
                                             transition={{ duration: 0.3 }}

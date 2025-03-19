@@ -5,7 +5,7 @@ import '../pages/Home/home.scss'
 
 const Slider = () => {
   return (
-    <div className="container mt-5">
+    <div className="slider container mt-5">
       <Carousel indicators={true} controls={true}>
         <Carousel.Item>
           <img className="d-block " src={img.offer1} alt="First slide" />

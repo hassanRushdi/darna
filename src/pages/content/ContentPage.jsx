@@ -135,7 +135,7 @@ const ContentPage = () => {
                                             <div className="social">
                                                 <div className="social_media flex gap-3">
                                                     <motion.a
-                                                        href={'https://www.facebook.com/darnarealstate/'}
+                                                        href={'https://www.facebook.com/darnadevelopments'}
                                                         target='_blank' rel="noreferrer"
                                                         whileHover={{ scale: 1.5 }}
 
@@ -159,7 +159,7 @@ const ContentPage = () => {
                                                     </motion.a> */}
 
                                                     <motion.a
-                                                        href={'https://www.facebook.com/'}
+                                                        href={'https://www.linkedin.com/company/darnadevelopments/'}
                                                         target='_blank' rel="noreferrer"
                                                         whileHover={{ scale: 1.5 }}
 
@@ -171,7 +171,7 @@ const ContentPage = () => {
                                                         </div>
                                                     </motion.a>
                                                     <motion.a
-                                                        href={'https://www.facebook.com/'}
+                                                        href={'https://www.youtube.com/@darnadevelopments'}
                                                         target='_blank' rel="noreferrer"
                                                         whileHover={{ scale: 1.5 }}
 

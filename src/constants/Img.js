@@ -51,6 +51,7 @@ import mediaBg5 from '../assets/Images/media/project-details-5.png'
 
 import facebook from '../assets/Images/facebook.png'
 import linkedin from '../assets/Images/linkedin.png'
+import linkedin2 from '../assets/Images/linkedin2.png'
 import twitter from '../assets/Images/twitter.png'
 import youtube from '../assets/Images/youtube.png'
 import youtubeLight from '../assets/Images/youtubeLight.png'
@@ -167,6 +168,7 @@ const img = {
     EnLang,
     facebook,
     linkedin,
+    linkedin2,
     twitter,
     youtube,
     youtubeLight,

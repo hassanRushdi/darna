@@ -119,7 +119,7 @@ const NavBar = ({ navbarColor }) => {
                                             whileHover={{ scale: 1.2 }}
                                             transition={{ duration: 0.3 }}
                                         >
-                                            <div style={{width: '25px'}}>
+                                            <div style={{width: '22px'}}>
                                                 <img src={img.whatsappDark} className='object-fit-contain w-100' alt="" srcset="" />
                                             </div>
                                         </motion.a>
@@ -129,8 +129,8 @@ const NavBar = ({ navbarColor }) => {
                                             whileHover={{ scale: 1.3 }}
                                             transition={{ duration: 0.3 }}
                                         >
-                                            <div>
-                                                <img src={img.linkedin}  className='' alt="" srcset="" />
+                                            <div style={{width: '17px'}} >
+                                                <img src={img.linkedin2}  className='object-fit-cover w-100' alt="" srcset="" />
                                             </div>
                                         </motion.a>
                                         <motion.a

@@ -50,6 +50,7 @@ import mediaBg5 from '../assets/Images/media/project-details-5.png'
 
 
 import facebook from '../assets/Images/facebook.png'
+import facebookF from '../assets/Images/facebookF.png'
 import linkedin from '../assets/Images/linkedin.png'
 import linkedin2 from '../assets/Images/linkedin2.png'
 import twitter from '../assets/Images/twitter.png'
@@ -167,6 +168,7 @@ const img = {
     ArLang,
     EnLang,
     facebook,
+    facebookF,
     linkedin,
     linkedin2,
     twitter,

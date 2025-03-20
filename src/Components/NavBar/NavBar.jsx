@@ -99,8 +99,8 @@ const NavBar = ({ navbarColor }) => {
                                             transition={{ duration: 0.3 }}
                                             className='m-0 p-0'
                                         >
-                                            <div>
-                                                <img src={img.facebook} className alt="" srcset="" />
+                                            <div style={{width: '12.4px'}} >
+                                                <img src={img.facebookF} className='object-fit-cover w-100' alt="" srcset="" />
                                             </div>
                                         </motion.a>
                                         {/*                         <motion.a

@@ -46,7 +46,7 @@ const Product = () => {
                         }
                     </Row>
                     <div className="app_products_btn">
-                        <Link to={'/product'}>
+                        <Link to={'/facilities'}>
                             <Button data-aos="flip-right"
                                 data-aos-duration="2000"
                                 data-aos-easing="zoom-in-up" className='  mt-5' severity="warning" label={t('product_btn')} icon={<Icons.ArrowOutlit />} />

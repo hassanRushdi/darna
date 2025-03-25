@@ -26,7 +26,7 @@ export const Footer = () => {
     let navigation = useNavigate()
     const handleChange = (id) => {
         setProductsId(id)
-        navigation('/products')
+        navigation('/facilities')
     };
     return (
         <>
@@ -126,7 +126,7 @@ export const Footer = () => {
 
                                         <div className="footer-ui">
                                             <ul>
-                                                <Link to={'/product'}> <li>{t("nav_product")}</li></Link>
+                                                <Link to={'/facilities'}> <li>{t("nav_product")}</li></Link>
                                                 <Link to={'/about-us'}> <li>{t("nav_about")}</li></Link>
                                                 <Link to={'/contact-us'}> <li>{t("nav_contact")}</li></Link>
                                             </ul>

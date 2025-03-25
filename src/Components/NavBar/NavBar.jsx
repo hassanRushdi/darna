@@ -191,7 +191,7 @@ const NavBar = ({ navbarColor }) => {
                                 </Nav.Item>
                             </Nav>
                             <Nav className={`${cookies.get('i18next') === "en" ? 'dropdown_en' : 'dropdown_ar'}`}>
-                                <Nav.Link as={Link} to='/product' className='text-light'> {t('nav_product')} </Nav.Link>
+                                <Nav.Link as={Link} to='/facilities' className='text-light'> {t('nav_product')} </Nav.Link>
                                 <Nav.Link as={Link} to='/media' className='text-light'>{t('nav_media')} </Nav.Link>
                                 <Dropdown  >
                                     <Dropdown.Toggle id="dropdown-basic">

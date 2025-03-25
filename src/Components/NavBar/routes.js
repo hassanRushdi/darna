@@ -15,9 +15,9 @@ const routes = [
         icon: <Icons.MediaImg className="logoSvg" style={{ width: 20 }} />,
     },
     {
-        path: "/product",
-        nameEn: "Our product",
-        nameAr: "منتجاتنا", 
+        path: "/facilities",
+        nameEn: "Our facilities",
+        nameAr: "مواصفاتنا", 
         icon: <Icons.ProductIcons className="logoSvg" style={{ width: 20 }} />,
     },
     {

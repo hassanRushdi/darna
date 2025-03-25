@@ -12,7 +12,7 @@ function App() {
         { index: true, element: <Component.Home /> },
         { path: 'about-us', element: <Component.AboutPage /> },
         { path: 'contact-us', element: <Component.ContentPage /> },
-        { path: 'product', element: <Component.ProductPage /> },
+        { path: 'facilities', element: <Component.ProductPage /> },
         { path: 'media', element: <Component.Media /> },
         {
           path: '/project-available', children: [

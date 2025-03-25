@@ -6,7 +6,7 @@
     margin: 0 !important;
     padding: 0 !important;
     // background: rgba(15, 30, 67, 0.70) !important;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(102, 102, 102, 0.5 ));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(102, 102, 102, 0.9 ),);
     height: 93px;
     display: flex !important;
     justify-content: center !important;
@@ -120,14 +120,15 @@
             // }
 
             .hotline {
-                background: linear-gradient(to right, $blackColor, $greyColor);
+                background: $blackColor !important;
+                // background: linear-gradient(to right, $blackColor, $greyColor);
                 border-radius: 30px;
                 box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.15) !important;
                 gap: 10px;
                 padding: 10px 18px;
 
                 @media screen and (width <1028px) {
-                    background-color: $secondColorDark !important;
+                    background-color: $blackColor !important;
                 }
             }
 
@@ -222,7 +223,7 @@
         top: 0px !important;
 
         .Logo__RightClick {
-            color: $mainColor !important;
+            color: $blackColor !important;
         }
 
         .icons__menu {

@@ -25,6 +25,7 @@ import MapAbout from '../assets/Images/About/mapAbout.png'
 import ContentPage from '../assets/Images/contact/bkg.png'
 import OurProducts from '../assets/Images/products/Our Product.png'
 import logoDark from '../assets/Images/logoDark.png'
+import logoDark2 from '../assets/Images/LogoDark2.png'
 import clients1 from '../assets/Images/clients/clients1.png'
 import clients2 from '../assets/Images/clients/clients2.png'
 import clients3 from '../assets/Images/clients/clients3.png'
@@ -117,6 +118,7 @@ const img = {
     whatsappDark,
     whatsappLight,
     LogoLight,
+    logoDark2,
     About4,
     About5,
     OurProducts,

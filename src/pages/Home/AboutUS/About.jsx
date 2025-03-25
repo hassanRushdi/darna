@@ -56,13 +56,13 @@ const About = () => {
             xl={5} lg={5} md={5} sm={12}>
             {location.pathname === '/' ? <>
               <img
-                src={imageList[currentImageIndex]}
+                src={img.logoDark2}
                 className='w-100'
                 alt="currentImageIndex"
                 data-aos={imageAos}
               />
             </> : <img
-              src={imageList2[currentImageIndex]}
+              src={img.logoDark2}
               className='w-100'
               alt="currentImageIndex"
               data-aos={imageAos}

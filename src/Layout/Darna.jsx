@@ -42,7 +42,7 @@ const Darna = () => {
     return (
         <div className='relative '>
 
-            <Component.NavBar navbarColor={navBarBg} />
+            <Component.NavBar  />
             <div style={{ position: 'relative' }}  >
                 <Outlet></Outlet>
             </div>

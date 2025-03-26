@@ -9,8 +9,8 @@
         display: flex;
         flex-direction: row-reverse;
         border-radius: 25px;
-        background: linear-gradient(to right, $blackColor, $greyColor) !important ; 
-        border: $secondColorDark !important;
+        background: $blackColor !important ; 
+        border: $whiteColor !important;
         padding: 15px 40px;
 
         .p-button-label {

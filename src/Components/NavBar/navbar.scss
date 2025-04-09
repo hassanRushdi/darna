@@ -13,10 +13,6 @@
     display: flex !important;
     justify-content: center !important;
 
-    position: fixed;
-  transform: translateZ(0); // Forces hardware acceleration
-  -webkit-transform: translateZ(0);
-
     @media screen and (width <1025px) {
         background-color: rgba($color: #000000, $alpha: 0.5) !important;
     }
@@ -64,13 +60,6 @@
             align-items: center;
             justify-content: space-between;
             position: relative;
-            @supports not (gap: 60px) {
-                margin: 0 -30px; // Fallback for older Safari
-                & > * {
-                  margin: 0 30px;
-                }
-              }
-            
 
             // &::before {
             //     content: '';

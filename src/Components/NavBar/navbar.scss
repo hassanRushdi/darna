@@ -622,3 +622,21 @@
     background-color: $blackColor !important;
     color: white;
 }
+
+@supports (-webkit-touch-callout: none) {
+    .navbar {
+      position: sticky; // Better support than fixed in Safari
+      top: 0;
+      z-index: 1030;
+      
+      .container {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+    
+    // Fix for viewport units in Safari
+    .app__navbar {
+      min-height: -webkit-fill-available;
+    }
+  }

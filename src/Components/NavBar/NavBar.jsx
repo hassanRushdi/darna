@@ -287,7 +287,7 @@ const NavBar = ({ navbarColor }) => {
                     </div>
                     <Link to='/' onClick={() => window.scroll(0, 0)}>
 
-                        <img src={img.Logo} style={{ width: '100%', height: '92px', objectFit: 'contain' }} alt="logo right click" />
+                        <img src={img.Logo} style={{height: '92px', objectFit: 'contain' }} alt="logo right click" />
 
                     </Link>
                 </div>

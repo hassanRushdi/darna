@@ -629,23 +629,7 @@
     color: white;
 }
 
-@supports (-webkit-touch-callout: none) {
-    .navbar {
-      position: sticky; // Better support than fixed in Safari
-      top: 0;
-      z-index: 1030;
-      
-      .container {
-        padding-left: 15px;
-        padding-right: 15px;
-      }
-    }
-    
-    // Fix for viewport units in Safari
-    .app__navbar {
-      min-height: -webkit-fill-available;
-    }
-  }
+
 
   .navbar .navbar-brand {
     display: flex;
@@ -656,5 +640,30 @@
     display: block;
     height: 40px; /* Adjust as needed */
     object-fit: contain;
+  }
+
+  .app__navbar .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 0 1rem;
+  
+    // Safari fix to force GPU rendering
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .app__navbar img {
+    height: 60px;
+    max-width: 160px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+  
+  .sidebar_lg button {
+    flex-shrink: 0;
+    z-index: 1000;
   }
 

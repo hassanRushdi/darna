@@ -19,7 +19,7 @@
     display: flex !important;
     justify-content: center !important;
 
-    @media screen and (width <1025px) {
+    @media screen and (max-width: 1024px) {
         background-color: rgba($color: #000000, $alpha: 0.5) !important;
     }
 }
@@ -56,7 +56,7 @@
         background-color: $whiteColor !important;
         margin: auto;
 
-        @media screen and (width <1025px) {
+        @media screen and (max-width: 1024px) {
             background-color: $whiteColor !important;
         }
 
@@ -284,7 +284,7 @@
         border-radius: 0 !important;
         display: flex !important;
 
-        @media screen and (width <=767px) {
+        @media screen and (max-width: 767px) {
             width: 100% !important;
         }
     }
@@ -333,7 +333,7 @@
 
 .navbar_icons_sm {
     font-weight: 400;
-    @media screen and (width < 767px) {
+    @media screen and (max-width: 767px) {
         display: none;
     }
 }
@@ -341,7 +341,7 @@
 .nav_links {
     width: 80%;
 
-    @media screen and (width <767px) {
+    @media screen and (max-width: 767px) {
         width: fit-content;
 
     }
@@ -657,3 +657,4 @@
     height: 40px; /* Adjust as needed */
     object-fit: contain;
   }
+

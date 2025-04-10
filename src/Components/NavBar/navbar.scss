@@ -9,6 +9,12 @@
     background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(102, 102, 102, 0));
     // background-color: transparent !important;
 
+
+    /* safari fix */
+    position: fixed;
+    width: 100%;
+    z-index: 1030; /* Bootstrap's default z-index for fixed navbar */
+    /* safari fix */
     height: 93px;
     display: flex !important;
     justify-content: center !important;
@@ -622,3 +628,32 @@
     background-color: $blackColor !important;
     color: white;
 }
+
+@supports (-webkit-touch-callout: none) {
+    .navbar {
+      position: sticky; // Better support than fixed in Safari
+      top: 0;
+      z-index: 1030;
+      
+      .container {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+    
+    // Fix for viewport units in Safari
+    .app__navbar {
+      min-height: -webkit-fill-available;
+    }
+  }
+
+  .navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    display: block;
+    height: 40px; /* Adjust as needed */
+    object-fit: contain;
+  }

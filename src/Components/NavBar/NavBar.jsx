@@ -70,7 +70,7 @@ const NavBar = ({ navbarColor }) => {
                         initial={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -50 }}
                         transition={{ duration: 0.5 }}>
-                        <Navbar className={`px-4 navbar__social-Container  `} >
+                        <Navbar className={`px-4 navbar__social-Container  `} sticky="top" >
                             <div className="calling w-100 container flex justify-content-between">
                                 <motion.a
                                     href={`tel:17347`}
